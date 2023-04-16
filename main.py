@@ -1,17 +1,15 @@
 
-lognest = ''
-shortest = ''
 
-
-def main():
-    global longest, shortest
-
+def split(number):
     ##################################################
     # Code your program here
     ##################################################
 
-    print(longest)
-    print(shortest)
+
+def main():
+    number = list(map(int, input().split()))
+    split(number)
+    print(number)
 
 
 if __name__ == '__main__':
