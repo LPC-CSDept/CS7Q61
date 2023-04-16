@@ -11,6 +11,7 @@ def test_main_1():
     datastr = '35 5 10 20 40 15\n'
     sys.stdin = io.StringIO(datastr)
 
+    main.main()
     number = [35, 5, 10, 20, 40, 15]
     main.split(number)
     sys.stdout = sys.__stdout__
